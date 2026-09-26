@@ -21,7 +21,8 @@ Open http://127.0.0.1:4173. No package installation or build step is needed. Dep
 
 ## Update the plan
 
-- `plan.js`: dated tasks, stable IDs, links, mock schedule and plan version.
+- `scripts/generate-plan.mjs`: editable day-by-day source. Run `npm run generate` after revisions.
+- `plan.js`: generated dated tasks, stable IDs, links, mock schedule and plan version.
 - `content.js`: strategy, research citations and resource shelf.
 - `core.js`: score calculation, validation, progress and backup merge.
 - `app.js`: UI and local persistence.
