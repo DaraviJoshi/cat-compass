@@ -1,0 +1,1 @@
+{"name":"cat-compass","version":"1.0.0","private":true,"type":"module","scripts":{"generate":"node scripts/generate-plan.mjs","test":"node --test tests/*.test.js","start":"python3 -m http.server 4173 --bind 127.0.0.1"}}
